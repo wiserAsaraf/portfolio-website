@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "asaraf";
+    src: url("./assets/static/Montserrat-Medium.ttf");
+    font-size: 20px;
+}
+
+body {
+    font-family: "asaraf";
+}
+
+.p5 {
+    padding: 30px !important;
+}
+
+.p6 {
+    padding: 60px !important;
+}
+
+.shado {
+    box-shadow: -9px 12px 8px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -9px 12px 8px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -9px 12px 8px -7px rgba(0, 0, 0, 0.75);
+}
+
+.sec1 {
+    height: 100vh;
+    background: url(./assets/fist2.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #ffffff;
+    z-index: 1;
+    padding: 80px 0;
+    padding-top: 150px;
+}
+
+.fs {
+    font-size: 50px;
+}
+
+.c {
+    opacity: 0.6 !important;
+    filter: grayscale(1);
+}
+
+.c:hover {
+    opacity: 1;
+    filter: grayscale(0);
+}
+
+.bg {
+    background-color: #1b1b1b;
+}
+
+.fs1 {
+    font-size: 14px;
+}
+
+.bg {
+    transform: skewy(-2deg);
+}
+
+.bg1 {
+    background-color: #1b1b1b;
+}
+
+.bg1 {
+    transform: skewy(-1deg);
+}
+
+.white {
+    transform: skewY(2deg);
+}
+
+.box {
+    background-color: #ffffff;
+    border: 2px solid rgb(226, 219, 219);
+    position: relative;
+
+}
+
+.t {
+    transition: all 1s ease;
+}
+
+.t:hover {
+    transform: scale(1.1) !important;
+}
+
+.fs3 {
+    font-size: 25px;
+}
+
+.fs4 {
+    font-size: 20px;
+}
+
+.box1 {
+    background-color: #252525;
+}
+
+.box3 {
+    background-color: #252525;
+    border-radius: 40px;
+}
+
+.bor {
+    border-bottom: 5px solid red !important;
+    border: none;
+}
+
+.g {
+    background-color: #1b1b1b;
+}
+
+.fs5 {
+    font-size: 20px;
+}
+
+/* .boxs {
+    box-shadow: -2px -1px 8px -2px rgba(162, 156, 156, 0.75);
+    -webkit-box-shadow: -2px -1px 8px -2px rgba(227, 211, 211, 0.75);
+    -moz-box-shadow: -2px -1px 8px -2px rgba(210, 195, 195, 0.75);
+    font-size: medium;
+} */
+
+.hove:hover{
+    color: white !important ;
+}
+.redh:hover{
+    color: red  !important; 
+}
+
+@media (max-width:992px) {
+    .fs {
+        font-size: 20px !important;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:576px) {
+    .sec1 {
+        font-size: 15px;
+       
+    }
+}
